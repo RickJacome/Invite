@@ -17,7 +17,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video, map {
+section, summary, time, mark, audio, video, map-container, map-container iframe{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -29,11 +29,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-map{
+map-container{
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
   height:0;
+}
+map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
  
 body {
