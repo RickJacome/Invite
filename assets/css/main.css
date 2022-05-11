@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 map-container{
   overflow:hidden;
-  padding-bottom:56.25%;
+  padding-bottom:100%;
   position:relative;
   height:0;
 }
